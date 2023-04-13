@@ -77,12 +77,21 @@ img {
     font-weight:bold;
     margin:10px;
   }
+  
   table tr:nth-child(even){
     background-color:rgba(0,0,0,.1);
   }
+
+  /*
+  css-tricks.com/examples/nth-child-tester/
+  */
   
   table tr:hover{
-    background-color:rgba(0,0,0,.2);
+    background-color:rgba(0,0,0,.3);
+    /*width:110%;*/
+    /*position:relative;
+    width:600px;
+    margin-left:-25px;*/
   }
   
 table th{
@@ -99,36 +108,57 @@ table th{
   
   td:nth-child(1){
     text-align:left;
+    /*This makes just the first column align this way. */
   }
   
   /*  --------------- Lists ------------------------  */
   
   ol{
     list-style-type:lower-roman;
+  /*Options: disc; circle; square; decimal; georgian; trad-chinese-informal; kannada;*/
   }
   
-  li{
-  
+  /*li{
+    list-style-type:disc; 
+    changes them all 
+    #closed bracket due to error codes
+  }*/
+
+  ul {
+    list-style-type: kannada;
+    /*changes outer*/
   }
   
   ul li > ul {
     list-style-type:square;
-    color:red;
+    color:black;
   }
   
-  dl{
-
-  }
+  /*dl{
+    #closed bracket due to error code
+  }*/
   dt{
     font-weight:bold;
   }
   dd{
     margin:0;
   }
+  /*adjacent sibling combinator:
+  Paragraphs that come immediately after any image
+  img + p {
+    font-weight: bold;
+  }
+  syntax
+  former_element + target_element {style properties } 
+  
+  li:first-of-type + li {
+    color: red;
+  }
+  */
   
   dd + dt{
     margin-top:20px;
-    color:red;
+    color:black;
   }
  
 /*  --------------- Global Styles -----------------  */
