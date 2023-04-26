@@ -31,6 +31,7 @@
       margin-right: auto;
       margin-left: auto;
       text-shadow: 2px 2px #000;
+      padding-top: 20px;
     }
     #navy {
       background-color: #001f3f;
@@ -38,14 +39,14 @@
       height: 125px;
       float: left;
       /*top, right, bottom, left*/
-      margin: 20px 0px 0px 20px;
+      margin: 0px 0px 0px 20px;
     }
     #teal {
       background-color: #39CCCC;
       width: 370px;
       height: 125px;
       float: right;
-      margin: 20px 20px 0px 0px;
+      margin: 0px 20px 0px 0px;
     }
     #blue {
       background-color: #0074D9;
@@ -64,7 +65,8 @@
     #footer {
       background-color: #666;
       clear:both;
-      margin: 20px 20px 20px 20px;
+      margin: 20px;
+      /*can do just one measurement if wanting to apply for all sides*/
     }
     h1 {
       color: #000;
@@ -75,6 +77,32 @@
       color: #000;
       font-weight: normal;
       padding: 10px;
+    }
+    /*could use this to apply to all the elements*/
+    .tile {
+      width: 370px;
+      height: 125px;
+      float: left;
+      margin-left: 20px;
+      margin-bottom: 20px;
+    }
+    #navy2 {
+      background-color: #001f3f;
+    }
+    #teal2 {
+      background-color: #39CCCC;
+    }
+    #blue2 {
+      background-color: #0074D9;
+    }
+    #aqua2 {
+      background-color: #7FDBFF;
+    }
+    #footer2 {
+      background-color: #666;
+      clear:both;
+      margin: 20px;
+      /*can do just one measurement if wanting to apply for all sides*/
     }
   </style>
 </head>
@@ -87,6 +115,16 @@
     <div id="blue">Blue</div>
     <div id="aqua">Aqua</div>
     <div id="footer">Footer</div>
+  </section>
+
+  <h1>Exercise 1 - Teacher's Way</h1>
+  <h2>Float</h2>
+  <section id="wrapper">
+    <div id="navy2" class="tile">Navy</div>
+    <div id="teal2" class="tile">Teal</div>
+    <div id="blue2" class="tile">Blue</div>
+    <div id="aqua2" class="tile">Aqua</div>
+    <div id="footer2">Footer</div>
   </section>
 </body>
 

@@ -7,7 +7,7 @@ Contrast/Dark: #808C23
 */
 
 .bg-demo{
-  background-image:url("../img/HeaderImg.jpg");
+  background-image:url("/assets/img/headerimg.jpg");
    background-repeat:no-repeat;
    background-size:contain;
    padding-left:15em;
@@ -188,7 +188,7 @@ header.primary{
     /* Two Value Top/Bottom / L/R */
     padding: 20px 40px;
     text-shadow:1px 1px #000000;
-    background-image: url("../img/HeaderImg.jpg");
+    background-image: url("/assets/img/headerimg.jpg");
 }
 
 header.primary h1{
