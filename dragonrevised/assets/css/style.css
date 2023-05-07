@@ -1,0 +1,413 @@
+/* SpaceX Color Theme Swatches in Hex 
+Primary: .spacex_logo-1-hex { color: #0511F2; }
+Secondary: .spacex_logo-2-hex { color: #035AA6; }
+Tertiary: .spacex_logo-3-hex { color: #03588C; }
+Fourth: .spacex_logo-4-hex { color: #027368; }
+Contrast/Dark: .spacex_logo-5-hex { color: #0D0D0D; }*/
+
+/* Color Theme Swatches in Hex
+Primary: .dragon_logo-1-hex { color: #261F22; }
+Secondary: .dragon_logo-2-hex { color: #23338C; }
+Tertiary: .dragon_logo-3-hex { color: #959BBF; }
+Fourth: .dragon_logo-4-hex { color: #2A438C; }
+Contrast/Dark: .dragon_logo-5-hex { color: #F2F2F2; }*/
+
+ /* Style the buttons that are used to open and close the accordion panel */
+ .accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+} 
+  
+  /*  ---------------Box Sizing-----------------  */
+  
+  html {
+      box-sizing: border-box;
+    }
+    *,
+    *:before,
+    *:after {
+      box-sizing: inherit;
+    }
+  
+  /*  --------------- Utility Classes -----------------  */
+  
+  .comments{
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    background-color: #708090ef;
+    width: 80vw;
+    max-width: 960px;
+    margin: 40px auto;
+  }
+  
+  .container {
+    width: 80vw;
+    max-width: 960px;
+    margin: 40px auto;
+  }
+
+  #wufoo-z19ay0xn18gchs3 {
+    width: 80vw;
+    max-width: 960px;
+    margin: 40px auto;
+    background-color: white;
+  }
+
+    .img-right{
+      float:right;
+      border:1px solid #c0c0c0;
+      padding:2px;
+      margin:10px 0 10px 20px;
+    }
+    
+    .img-left{
+      float:left;
+      border:1px solid #c0c0c0;
+      padding:2px;
+      margin:10px 20px 10px 0;
+    }
+    
+    .img-center{
+      display:block;
+      border:1px solid #c0c0c0;
+      padding:2px;
+      margin:20px auto;
+    }
+  
+  /*  --------------- Responsive Images -----------------  */
+  
+  img {
+      max-width: 100%;
+    }
+    
+    /*  --------------- Tables ------------------------  */
+    
+    table{
+      width:100%;
+      border:1px solid #c0c0c0;
+      border-collapse:collapse;
+      box-shadow: 0 8px 8px rgba(0, 0, 0, 0.4);
+      margin:20px 0;
+    }
+    table caption{
+      font-weight:bold;
+      margin:10px;
+    }
+    
+    table tr:nth-child(even){
+      background-color:rgba(0,0,0,.1);
+    }
+    
+    table tr:hover{
+      background-color:rgba(0,0,0,.3);
+    }
+    
+  table th{
+      background-color: #172635;
+      color:#fff;
+      padding:10px;
+    }
+    table td{
+      border:1px solid #c0c0c0;
+      padding:5px;
+      text-align:right;
+      width:33%;
+    }
+    
+    td:nth-child(1){
+      text-align:left;
+    }
+    
+    /*  --------------- Lists ------------------------  */
+    
+    ol{
+      list-style-type:lower-roman;
+    }
+  
+    ul {
+      list-style-type: circle;
+    }
+    
+    ul li > ul {
+      list-style-type:square;
+      color:black;
+    }
+    
+    dt{
+      font-weight:bold;
+    }
+    dd{
+      margin:0;
+    }
+   
+    dd + dt{
+      margin-top:20px;
+      color:black;
+    }
+   
+  /*  --------------- Global Styles -----------------  */
+  
+  body{
+      background-color: slategrey;
+      /*background-image:url("../images/dragon-logo.png");
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat:no-repeat;
+      background-size:contain;
+      opacity: 0.5;*/
+      background-image: url("../images/dragon-logo.png");
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    
+      font-family: 'Roboto', sans-serif;
+      margin:0;
+      font-size:80%;
+  }
+  
+  header.primary{
+      background-color:rgba(32, 28, 28, 0.8);
+      text-align:center;
+      color:#ffffff;
+      text-shadow:1px 1px #000000;
+      /*background-image: url("../images/spacex-logo.png");
+      background-position: center;
+      background-repeat:no-repeat;
+      background-size:contain;*/
+      padding: 20px 40px 20px 40px;
+  }
+  
+  header.primary h1{
+      font-size:2.4rem;
+  }
+  
+  header.primary h1 a{
+      color:white;
+      text-decoration:none;
+  }
+  
+  header.primary h2{
+      font-size:1.4rem;
+      padding: 0px 40px 20px 40px;
+  }
+  
+  header.primary nav{
+      max-width:960px;
+      margin: 20px auto;
+  }
+  
+  header.primary nav ul{
+      padding:0;
+      display:flex;
+      flex-direction:row;
+      justify-content:space-evenly;
+  }
+  
+  header.primary nav ul li {
+      list-style-type:none;
+  }
+  
+  header.primary nav ul li a {
+    font-size:1.4rem;
+      color:#000000;
+      text-decoration:none;
+      background:#000000;
+      background-color: rgba(243, 232, 232, 0.697);
+      padding:8px 50px;
+      border-radius:20px 4px;
+      border: 1px solid  rgba (0, 0, 0, 0.4);
+      transition: 0.5s;
+  }
+  
+  header.primary nav ul li a:hover,
+  header.primary nav ul li a:active {
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  #intro {
+    border-bottom: 1px dotted #c0c0c0;
+    padding-bottom: 14px;
+    background-color: #e9eff6dc;
+  }
+  
+  #intro h2 {
+    color: #3b638b;
+    border-bottom: 1px dotted #c0c0c0;
+  }
+
+  /* ------------- Content --------------- */
+
+section#content {
+  padding: 4em 0;
+}
+
+section#content h2 {
+  font-family: "Goldman", cursive;
+  font-size: 2.2em;
+  color: #33536b;
+  text-align: center;
+}
+  
+  #content {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    gap: 20px;
+    border-bottom: 1px dotted #c0c0c0;
+    padding-bottom:2.6rem;
+  }
+  
+  #content article.post {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    transition: 0.5s;
+    background-color: #1b2733f9;
+  }
+  
+  #content article.post:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  }
+  
+  article.post figure {
+    margin: 0;
+  }
+  
+  time.post-date,
+  figcaption,
+  .post-meta {
+    text-transform: uppercase;
+    color: #c0c0c0;
+  }
+  .post figure img {
+    border: 1px solid #c0c0c0;
+    padding: 2px;
+    border-radius: 5px;
+  }
+  
+  article.post a {
+    color: #3b638b;
+  }
+  
+  article.post a:hover {
+    text-decoration: none;
+  }
+  
+  #practice h2{
+  color: #3b638b;
+  border-bottom: 1px dotted #c0c0c0;
+  }
+    
+  #practice blockquote{
+    border:4px double #c0c0c0;
+    margin:40px 80px;
+    padding:20px 40px;
+    border-radius: 30px 0;
+    background-color:#3b638b;
+    color:#c0c0c0;
+    line-height:1.8;
+    text-shadow:1px 1px #000;
+  }
+  
+  #practice blockquote cite{
+    display:block;
+    font-size:.7rem;
+    font-weight:bold;
+    text-align:right;
+    margin-top:10px;
+  }
+  
+  aside[role="complementary"] {
+    background-color: #172635;
+    color: #ffffff;
+    padding: 1.9rem;
+  }
+    
+  aside .container {
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    background-color: #708090ef;
+  }
+  
+  aside .widget a:last-of-type {
+    display: block;
+    text-align: right;
+    padding-top: 20px;
+    color: white;
+  }
+  
+  aside .widget footer {
+    display: none;
+  }
+  
+  #colophon {
+    background-color: #3b638b;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  #colophon h6 {
+    padding: 20px;
+    margin: 0;
+    text-align: center;
+    color: #ffffff;
+    font-size: 0.9rem;
+    bottom: 0;
+  }
+  
+  /*  --------------- Media Queries -----------------  */
+  
+  @media screen and (max-width: 600px) {
+    header.primary nav ul {
+      flex-direction: column;
+      max-width: 250px;
+      margin: auto;
+    }
+    header.primary nav a {
+      display: block;
+    }
+    header.primary nav li {
+      margin-bottom: 10px;
+    }
+  }
+  #content article.post:hover,
+  #content article.post:active{
+      transition:0.5s;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+      font-size:medium;
+  }
+  #comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;
+}
