@@ -146,7 +146,7 @@ color: white;
       /* Two Value Top/Bottom / L/R 
       padding: 20px 40px;*/
       text-shadow:1px 1px #000000;
-      background-image: url("/assets/img/headerimg.jpg");
+      background-image: url("../img/headerimg.jpg");
   }
   header.primary h1{
       font-size:2.4rem;

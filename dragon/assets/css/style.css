@@ -127,7 +127,7 @@ Contrast/Dark: .dragon_logo-5-hex { color: #F2F2F2; }*/
   
   body{
       background-color: slategrey;
-      background-image:url("/dragon/assets/images/dragon-logo.png");
+      background-image:url("../images/dragon-logo.png");
       background-position: center;
       background-attachment: fixed;
       background-repeat:no-repeat;
@@ -142,7 +142,7 @@ Contrast/Dark: .dragon_logo-5-hex { color: #F2F2F2; }*/
       text-align:center;
       color:#ffffff;
       text-shadow:1px 1px #000000;
-      background-image: url("/dragon/assets/images/spacex-logo.png");
+      background-image: url("../images/spacex-logo.png");
       background-position: center;
       background-repeat:no-repeat;
       background-size:contain;
