@@ -354,6 +354,9 @@ aside .widget footer {
 
 #colophon {
   background-color: #3b638b;
+  position: absolute;
+    bottom:0;
+    width: 100%;
 }
 
 #colophon h6 {
