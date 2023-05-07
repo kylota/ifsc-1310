@@ -11,7 +11,7 @@ $(document).ready(function() {
     autoplaySpeed: 2000
   });
 
-});y
+});
 
     /* Set the width of the side navigation to 250px */
     function openNav() {
