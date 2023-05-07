@@ -1,4 +1,5 @@
-  /* Set the width of the side navigation to 250px */
+$(document).ready(function() {
+
   function openNav() {
     document.getElementById("mySidenav").style.width = "300px";
   }
@@ -7,3 +8,4 @@
   function closeNav() {
     document.getElementById("mySidenav").style.width = "0";
   } 
+});
