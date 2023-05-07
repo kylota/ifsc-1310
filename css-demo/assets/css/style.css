@@ -6,19 +6,12 @@ Fourth: #88D4F2
 Contrast/Dark: #808C23
 */
 
-.bg-demo{
+.elementheight-demo{
   background-image:url("/assets/img/headerimg.jpg");
    background-repeat:no-repeat;
    background-size:contain;
    padding-left:15em;
  }
-
- 
-
-/*body#about{
-    background-color: slategrey;
-    font-family: 'Roboto', sans-serif;
-}*/
 
 /*  ---------------Box Sizing-----------------  */
 
@@ -228,10 +221,10 @@ header.primary nav ul li a {
     color:#ffffff;
     text-decoration:none;
     background:#000000;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: black;
     padding:8px 16px;
     border-radius:20px 4px;
-    border: 1px solid  rgba (0, 0, 0, 0.4);
+    border: 1px solid  black;
     transition: 0.5s;
     /* The following values are allowed:
     dotted - Defines a dotted border
@@ -336,20 +329,11 @@ border-bottom: 1px dotted #c0c0c0;
   margin-top:10px;
 }
 
-
-
 aside[role="complementary"] {
   background-color: #172635;
   color: #ffffff;
   padding: 1.9rem;
 }
-
-/* Attribute Selector Example
-a[target="_blank"]{
-  color:red;
-}
-
-*/
 
 aside .container {
   display: flex;
@@ -395,10 +379,6 @@ aside .widget footer {
     margin-bottom: 10px;
   }
 }
-
-
-
-
 #content article.post:hover,
 #content article.post:active{
     transition:0.5s;

@@ -3,9 +3,11 @@
 
 <head>
   <title>IFSC 1310 | Kylota Stewart</title>
+  <meta name="robots" content="noindex">
   <meta charset="utf-8">
   <meta name="description" content="assignments">
   <meta name="author" content="Kylota Stewart">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
@@ -13,119 +15,48 @@
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/accessible-slick-theme.min.css">
 <link href="/assets/css/style.css" rel="stylesheet">
 </head>
-<!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav-->
 <body>
-  <header role="banner" class="primary">
+  <!--https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_sidenav-->
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+    <a href="/prototype/index.html" target="_blank">Prototype HTML5 Assignment</a>
+    <a href="/css-demo/index.html" target="_blank">CSS Demo</a>
+    <a href="css-demo/assets/img/CSSDiner.jpg" target="_blank">CSS Diner</a>
+    <a href="assets/img/flexboxfroggy.jpg" target="_blank">Flexbox Froggy</a>
+    <a href="position-labs/absolute-1.html" target="_blank">Absolute 1</a>
+    <a href="position-labs/absolute-2.html" target="_blank">Absolute 2</a>
+    <a href="position-labs/float-1.html" target="_blank">Float 1</a>
+    <a href="position-labs/float-2.html" target="_blank">Float 2</a>
+    <a href="/assets/img/GravitIcon.jpg" target="_blank">Gravit Icon/Coral Vector Logo</a>
+    <a href="/assets/img/lumaleejeepandbear2.jpg" target="_blank">Lumalee, Jeep and Bear</a>
+    <a href="/dragon/index.html" target="_blank">SpaceX Dragon 1st Draft</a>
+    <a href="#" target="_blank">Cycle Lab</a>
+    <a href="/slick-demo/index.html" target="_blank">Accessible Content Carousel</a>
+    <a href="#" target="_blank">SpaceX Dragon Revised</a>
+    <a href="#" target="_blank">Progressive Enhancement Writing Assignment</a>
+    <a href="#" target="_blank">Dragon Project Revision and Reflection</a>
+  </div>
+  <!--self note: role describes the role of an element in programs that can make use of it, such as screen readers or magnifiers-->
+  <header class="primary">
+    <!--<nav role="navigation"> Nav role marked as unnecessary. -->
+      <nav>
+      <span onclick="openNav()">&#9776; All Assignments</span></nav>
     <h1><a href="/index.html">Kylota Stewart - IFSC 1310 Assignments</a></h1>
       </header>
       <section id="intro" class="container">
         <h2>Random Information</h2>
-        <p>
-          I miss coding in my daily life more than I realized. This evening I get to work on this project while listening to the sound of the pouring rain - my absolute favorite. I miss my old job before the company closed; I would love to take my laptop to the mountains and just code for days. 
-        </p>
-        <h3>
-          I could work on this project all day and all night. 
-        </h3>
+        <p>Some Text</p>
       </section>
-
-<!--     <p>Required Images</p>
-<button type="button" class="collapsible">Flexbox Froggy</button>
-<div class="contentcollapsible">
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-</div>-->
-      <nav>
-    <ul>
-    <form action="/action_page.php" method="get">
-      <li>
-        <input type="checkbox" name="prototype" value="prototype" checked>
-      <label for="prototype"><a href="prototype/index.html">Prototype HTML5 Assignment</a></label><br>
-      </li>
-      <li>
-      <input type="checkbox" name="cssdemo" value="cssdemo" checked>
-      <label for="cssdemo"><a href="css-demo/">CSS Demo</a></label><br>
-    </li>
-      <li>
-      <input type="checkbox" name="cssdiner" value="cssdiner" checked>
-      <label for="cssdiner"><a href="css-demo/assets/img/CSSDiner.jpg">CSS Diner</a></label><br>
-    </li>
-      <li>
-      <input type="checkbox" name=" " value=" " checked>
-      <label for=" "><a href="assets/img/flexboxfroggy.jpg">Flexbox Froggy</a>
-      </label><br></li>
-      <li>Position Labs</li>
-      <ul>
-        <li>
-          <input type="checkbox" name=" " value=" " checked>
-          <label for=" "><a href="position-labs/absolute-1.html" target="_blank">Absolute 1</a>
-          </label><br>
-        </li>
-        <li>
-          <input type="checkbox" name=" " value=" " checked>
-          <label for=" "><a href="position-labs/absolute-2.html" target="_blank">Absolute 2</a>
-          </label><br>
-        </li>
-        <li>
-          <input type="checkbox" name=" " value=" " checked>
-          <label for=" "><a href="position-labs/float-1.html" target="_blank">Float 1</a>
-          </label><br>
-        </li>
-        <li>
-          <input type="checkbox" name=" " value=" " checked>
-          <label for=" "><a href="position-labs/float-2.html" target="_blank">Float 2</a>
-          </label><br>
-        </li>
-      </ul>
-      <li>
-        <input type="checkbox" name=" " value=" " checked>
-        <label for=" "><a href="/assets/img/GravitIcon.jpg">Corel Vector Logo</a>
-        </label><br>
-      </li>
-      <li>
-        <input type="checkbox" name=" " value=" ">
-        <label for=" "><a href="#">Bear on Moon</a>
-        </label><br>
-      </li>
-      <li>
-        <input type="checkbox" name=" " value=" ">
-        <label for=" "><a href="#">SpaceX Dragon</a>
-        </label><br>
-      </li>
-      <li>
-        <input type="checkbox" name=" " value=" ">
-        <label for=" "><a href="#">Cycle Lab</a>
-        </label><br>
-      </li>
-      <li>
-        <input type="checkbox" name=" " value=" ">
-        <label for=" "><a href="#">SpaceXDragon Revised</a>
-        </label><br>
-      </li>
-      <li>
-        <input type="checkbox" name=" " value=" ">
-        <label for=" "><a href="#">Progressive Writing Assignment</a>
-        </label><br>
-      </li>
-      <li>
-        <input type="checkbox" name=" " value=" ">
-        <label for=" "><a href="#">Dragon Project Revision and Reflection</a>
-        </label><br>
-      </li>
-      <li>
-        <input type="checkbox" name=" " value=" " checked>
-        <label for=" "><a href="/slick-demo/index.html">Accessible Content Carousel</a>
-        </label><br>
-      </li>
-    </form>
-  </ul>
-  </nav>
-
   <div class="fade containerslick">
+    <div><img src="/assets/img/prototypehtml5.jpg" alt="Prototype HTML5"></div>
+    <div><img src="/assets/img/cssdemo.jpg" alt="CSS Demo"></div>
+    <div><img src="/css-demo/assets/img/CSSDiner.jpg" alt="CSS Diner"></div>
     <div><img src="/assets/img/flexboxfroggy.jpg" alt="Flexbox Froggy"></div>
-    <div><img src="/assets/img/GravitIcon.jpg" alt="Gravit Icon"></div>
+    <div><img src="/assets/img/GravitIcon.jpg" alt="Gravit Icon/Coral Vector Logo"></div>
+    <div><img src="/assets/img/lumaleejeepandbear2.jpg" alt="Lumalee, Bear and Jeep"></div>
   </div>
-
-
-    <aside role="complementary">
+    <!--<aside role="complementary">-->
+      <aside>
       <div class="container">
         <article class="widget">
           <header>
@@ -133,7 +64,6 @@
           </header>
           <p>Quisque justo erat, varius placerat fermentum vel, iaculis vel ligula. Phasellus et elit purus. Curabitur ipsum enim, scelerisque vitae condimentum ac, cursus eget quam. Nullam volutpat dui ut risus pulvinar at fringilla sem tristique. Nulla facilisi.
             Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. <a href="#">Read More &raquo;</a></p>
-          <footer>Widget Footer</footer>
         </article>
         <article class="widget">
           <header>
@@ -141,17 +71,16 @@
           </header>
           <p>Quisque justo erat, varius placerat fermentum vel, iaculis vel ligula. Phasellus et elit purus. Curabitur ipsum enim, scelerisque vitae condimentum ac, cursus eget quam. Nullam volutpat dui ut risus pulvinar at fringilla sem tristique. Nulla facilisi.
             Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. <a href="#">Read More &raquo;</a></p>
-          <footer>Widget Footer</footer>
         </article>
       </div>
     </aside>
-  <footer id="colophon" role="contentinfo">
+  <!--<footer id="colophon" role="contentinfo">-->
+  <footer id="colophon">
     <h6>&copy; 2023 Kylota Stewart</h6>
   </footer>
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@accessible360/accessible-slick@1.0.1/slick/slick.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/prismjs@1.21.0/prism.min.js"></script>
-<script src="assets/js/scripts.js"></script>
 <script src="/assets/js/scripts.js"></script>
 </body>
 </html>

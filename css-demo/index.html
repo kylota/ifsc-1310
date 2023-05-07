@@ -3,6 +3,7 @@
 
 <head>
   <title>IFSC 1310 - CSS Demo</title>
+  <meta name="robots" content="noindex">
   <meta charset="UTF-8">
   <meta name="description" content="Keyword rich narrative on site purpose">
   <meta name="author" content="Kylota Stewart">
@@ -13,10 +14,10 @@
 </head>
 
 <body>
-  <header role="banner" class="primary">
+  <header class="primary">
     <h1><a href="index.html">Building the Modern Web</a></h1>
     <h2>HTML5, CSS, JavaScript Fundamentals</h2>
-    <nav role="navigation">
+    <nav>
       <ul>
         <li><a href="https://ualr.edu/">UA Little Rock</a></li>
         <li><a href="http://learn.shayhowe.com/html-css/getting-to-know-html/">HTML5 & CSS Lessons</a></li>
@@ -32,7 +33,7 @@
       dui euismod sed. In efficitur felis risus, at tempor risus aliquam vel.</p>
   </section>
 
-  <section id="content" class="container">
+  <div id="content" class="container">
     <article class="post">
       <header>
         <time class="post-date" datetime="2023-02-20">February 20, 2023</time>
@@ -41,12 +42,12 @@
           <figcaption>Crater Lake</figcaption>
         </figure>
         <h2> <a href="https://www.facebook.com/Crater-Lake-National-Park-137127376328525">
-          <img src="../assets/img/facebooklogo.png" width="25"></a><a href="https://www.nps.gov/crla/index.htm" target="_blank" rel="bookmark" title="Crater Lake National Park">Crater Lake National Park</a> </h2>
+          <img src="../assets/img/facebooklogo.png" alt="Contact Us On Facebook" width="25"></a><a href="https://www.nps.gov/crla/index.htm" target="_blank" rel="bookmark" title="Crater Lake National Park">Crater Lake National Park</a> </h2>
         
       </header>
       <p>Curabitur facilisis pharetra ultrices. Phasellus eu elementum felis. Etiam cursus mi vitae odio imperdiet, vel fringilla orci porttitor. Cras at tincidunt metus, in lobortis ligula. Fusce metus nisl, efficitur id fringilla quis, luctus non nisi.
         </p>
-      <footer class="post-meta"> &copy; <a href="mailto:kylota.stewart@gmail.com?subject=Crater Lake Image" target="_blank">Kylota Stewart</a></footer>
+      <footer class="post-meta"> &copy; <a href="mailto:kylota.stewart@gmail.com?subject=Crater%20Lake%20Image" target="_blank">Kylota Stewart</a></footer>
     </article>
     <article class="post">
       <header>
@@ -56,11 +57,11 @@
           <figcaption>Mt. Rainier</figcaption>
         </figure>
         <h2> <a href="https://www.facebook.com/MountRainierNPS">
-          <img src="../assets/img/facebooklogo.png" width="25"></a><a href="https://www.nps.gov/mora/index.htm" target="_blank" rel="bookmark" title="Mt. Rainier National Park">Mt. Rainier National Park</a> </h2>
+          <img src="../assets/img/facebooklogo.png" alt="Contact Us On Facebook" width="25"></a><a href="https://www.nps.gov/mora/index.htm" target="_blank" rel="bookmark" title="Mt. Rainier National Park">Mt. Rainier National Park</a> </h2>
       </header>
       <p>Curabitur facilisis pharetra ultrices. Phasellus eu elementum felis. Etiam cursus mi vitae odio imperdiet, vel fringilla orci porttitor. Cras at tincidunt metus, in lobortis ligula. Fusce metus nisl, efficitur id fringilla quis, luctus non nisi.
         </p>
-      <footer class="post-meta"> &copy; <a href="mailto:kylota.stewart@gmail.com?subject=Mt. Rainier Image" target="_blank">Kylota Stewart</a></footer>
+      <footer class="post-meta"> &copy; <a href="mailto:kylota.stewart@gmail.com?subject=Mt.%20Rainier%20Image" target="_blank">Kylota Stewart</a></footer>
     </article>
     <article class="post">
       <header>
@@ -70,29 +71,29 @@
           <figcaption>Grand Canyon Sunrise</figcaption>
         </figure>
         <h2> <a href="https://www.facebook.com/GrandCanyonNationalPark">
-          <img src="../assets/img/facebooklogo.png" width="25"></a><a href="https://www.nps.gov/grca/index.htm" target="_blank" rel="bookmark" title="Grand Canyon National Park">Grand Canyon National Park</a> </h2>
+          <img src="../assets/img/facebooklogo.png" alt="Contact Us On Facebook" width="25"></a><a href="https://www.nps.gov/grca/index.htm" target="_blank" rel="bookmark" title="Grand Canyon National Park">Grand Canyon National Park</a> </h2>
       </header>
       <p>Curabitur facilisis pharetra ultrices. Phasellus eu elementum felis. Etiam cursus mi vitae odio imperdiet, vel fringilla orci porttitor. Cras at tincidunt metus, in lobortis ligula. Fusce metus nisl, efficitur id fringilla quis, luctus non nisi.</p>
-      <footer class="post-meta"> &copy; <a href="mailto:kylota.stewart@gmail.com?subject=Grand Canyon Image" target="_blank">Kylota Stewart</a></footer>
+      <footer class="post-meta"> &copy; <a href="mailto:kylota.stewart@gmail.com?subject=Grand%20Canyon%20Image" target="_blank">Kylota Stewart</a></footer>
     </article>
-  </section>
+  </div>
 
   <section id="practice" class="container">
     <h2>Properly Marking up an HTML Document</h2>
     <!--(Primary Content Heading)-->
   
-    <p>This is a paragraph. <em>Often times designers</em> will use <q>Dummy Text</q> as a <strong>placeholder</strong> in a document. An example of that text <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" class="img-right" alt="UA Little Rock Logo" />follows...Lorem ipsum dolor sit amet, consectetuer <del>adipiscing elit</del>. Praesent volutpat
+    <p>This is a paragraph. <em>Often times designers</em> will use <q>Dummy Text</q> as a <strong>placeholder</strong> in a document. An example of that text <img src="https://thomaswallace.net/wp-content/uploads/2018/02/ualr.png" class="img-right" alt="UA Little Rock Logo">follows...Lorem ipsum dolor sit amet, consectetuer <del>adipiscing elit</del>. Praesent volutpat
       velit sed massa. In volutpat eros sagittis ipsum. Donec fringilla risus nec nunc. Fusce tellus arcu, blandit quis, posuere in, porta vitae, lorem.</p>
   
     <p> <a href="#">Quisque feugiat arcu eget sapien</a>. <span class="foo">Aenean</span> eget ipsum id arcu bibendum porttitor. Vivamus id lectus non eros eleifend aliquet.</p>
-    <img src="/css-demo/assets/img/snow.jpg" class="img-right"  alt="Snow" />
+    <img src="/css-demo/assets/img/snow.jpg" class="img-right"  alt="Snow">
     <p> Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris volutpat. Integer dignissim consequat enim. Praesent velit felis,
       tempus malesuada, sagittis et, condimentum in, ante. Nulla lobortis, ligula sit amet laoreet sollicitudin, sem arcu lacinia tellus, id lobortis arcu urna tincidunt turpis. <sup><a href="#">1</a></sup> </p>
   
     <h3>This is a Subsection of the Primary Content</h3>
     <!-- (Subsection I)-->
 
-    <div class="bg-demo">
+    <div class="elementheight-demo">
       Element height is dictated by content. 
     </div>
   
@@ -183,8 +184,8 @@
       <dd>Description 3</dd>
       <dd>Description 4</dd>
       <dt>Term</dt>
-      <dd>Description 1</dd>
-    </dl>-->
+      <dd>Description 1</dd>-->
+    </dl>
   
     <h4>This is a Subsection of Subsection I</h4>
   
@@ -199,7 +200,7 @@
       libero ut eleifend pellentesque, risus turpis fermentum est, vel nonummy lorem est id nisl. Nulla facilisi. In sagittis tortor. Vestibulum dictum leo vitae augue. Morbi in odio sed nulla luctus sodales.</p>
   </section>
 
-  <aside role="complementary">
+  <aside>
     <div class="container">
       <article class="widget">
         <header>
@@ -207,7 +208,6 @@
         </header>
         <p>Quisque justo erat, varius placerat fermentum vel, iaculis vel ligula. Phasellus et elit purus. Curabitur ipsum enim, scelerisque vitae condimentum ac, cursus eget quam. Nullam volutpat dui ut risus pulvinar at fringilla sem tristique. Nulla facilisi.
           Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. <a href="#">Read More &raquo;</a></p>
-        <footer>Widget Footer</footer>
       </article>
       <article class="widget">
         <header>
@@ -215,14 +215,13 @@
         </header>
         <p>Quisque justo erat, varius placerat fermentum vel, iaculis vel ligula. Phasellus et elit purus. Curabitur ipsum enim, scelerisque vitae condimentum ac, cursus eget quam. Nullam volutpat dui ut risus pulvinar at fringilla sem tristique. Nulla facilisi.
           Donec posuere euismod purus, eu scelerisque risus pellentesque eu. Vestibulum sed tincidunt metus. <a href="#">Read More &raquo;</a></p>
-        <footer>Widget Footer</footer>
       </article>
     </div>
   </aside>
   <!--#secondary -->
   <!--#content -->
 
-  <footer id="colophon" role="contentinfo">
+  <footer id="colophon">
     <h6>&copy; 2023 Kylota Stewart</h6>
   </footer>
 </body>
