@@ -253,6 +253,7 @@ color: white;
   }
   #intro h2 {
     color: #3b638b;
+    font-size:1.4rem;
     border-bottom: 1px dotted #c0c0c0;
   }
   #intro h3 {
