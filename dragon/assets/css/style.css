@@ -25,6 +25,16 @@ Contrast/Dark: .dragon_logo-5-hex { color: #F2F2F2; }*/
   
   /*  --------------- Utility Classes -----------------  */
   
+  .comments{
+    display: flex;
+    gap: 40px;
+    flex-direction: row;
+    background-color: #708090ef;
+    width: 80vw;
+    max-width: 960px;
+    margin: 40px auto;
+  }
+  
   .container {
     width: 80vw;
     max-width: 960px;
@@ -103,7 +113,7 @@ Contrast/Dark: .dragon_logo-5-hex { color: #F2F2F2; }*/
     }
   
     ul {
-      list-style-type: kannada;
+      list-style-type: circle;
     }
     
     ul li > ul {
@@ -347,4 +357,11 @@ Contrast/Dark: .dragon_logo-5-hex { color: #F2F2F2; }*/
       transition:0.5s;
       box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
       font-size:medium;
-  }  
+  }
+  #comment-box, #post {
+    border: none;
+    border-radius: 5px;
+}
+#post:hover{
+    background-color: deeppink;
+}
