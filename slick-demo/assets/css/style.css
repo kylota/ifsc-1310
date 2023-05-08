@@ -1,6 +1,10 @@
-body{
-    background-color:darkgray;
-}
+  body{
+      background-color: slategrey;
+      /*#708090*/
+      font-family: 'Roboto', sans-serif;
+      margin:0;
+      font-size:80%;
+  }
 
 img{
     max-width:100%;
@@ -33,4 +37,119 @@ img{
 .slick-autoplay-toggle-button:focus 
 {
     color:black;
+}
+
+header.primary{
+      background-color:#035AA6;
+      text-align:center;
+      color:#ffffff;
+      padding:40px;
+      /*long form
+      padding-top: 40px;
+      padding-right: 40px;
+      padding-bottom: 40px;
+      padding-left: 40px;*/
+      /* T,R,B,L */
+      padding: 20px 40px 20px 40px;
+      /* Two Value Top/Bottom / L/R 
+      padding: 20px 40px;*/
+      text-shadow:1px 1px #000000;
+      background-image: url("../img/headerimg.jpg");
+  }
+  header.primary h1{
+      font-size:2.4rem;
+      margin: 20px 0 10px;
+  }
+  header.primary h1 a{
+      color:white;
+      text-decoration:none;
+  }
+  header.primary h2{
+      font-size:1.4rem;
+  }
+  header.primary nav{
+      text-align:left;
+      padding: 20px 40px 20px 40px;
+      font-size:1.4rem;
+  }
+  header.primary nav:hover{
+    text-decoration:none;
+    cursor:pointer;
+}
+  header.primary nav ul{
+      padding:0;
+      display:flex;
+      flex-direction:row;
+      justify-content:space-evenly;
+  }
+  header.primary nav ul li {
+      list-style-type:none;
+      /*background-color: blue;
+      /*margin:10px;*/
+  }
+  header.primary nav ul li a {
+      color:#ffffff;
+      text-decoration:none;
+      background:#000000;
+      background-color: black;
+      padding:8px 16px;
+      border-radius:20px 4px;
+      border: 1px solid black;
+      transition: 0.5s;
+      /* The following values are allowed:
+      dotted - Defines a dotted border
+      dashed - Defines a dashed border
+      solid - Defines a solid border
+      double - Defines a double border
+      groove - Defines a 3D grooved border. The effect depends on the border-color value
+      ridge - Defines a 3D ridged border. The effect depends on the border-color value
+      inset - Defines a 3D inset border. The effect depends on the border-color value
+      outset - Defines a 3D outset border. The effect depends on the border-color value
+      none - Defines no border
+      hidden - Defines a hidden border*/
+  }
+  header.primary nav ul li a:hover,
+  header.primary nav ul li a:active {
+    background: rgba(0, 0, 0, 0.8);
+  }
+
+ /* The side navigation menu */
+ body {
+  font-family: "Lato", sans-serif;
+}
+.sidenav {
+  height: 100%; /* 100% Full-height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
 }
